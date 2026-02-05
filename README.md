@@ -1,5 +1,5 @@
 # Groupe23-Deploiement-d-un-serveur-de-Base-de-donn-es-avec-replication
-C'est notre travail effectuer dans le cadre du cours de Système d'éxploitation et voici donc les differents documents le decrivant.
+
 [![Platform: Ubuntu](https://img.shields.io/badge/Platform-Ubuntu-orange.svg)](https://ubuntu.com/)
 [![Database: MariaDB](https://img.shields.io/badge/Database-MariaDB-blue.svg)](https://mariadb.org/)
 
