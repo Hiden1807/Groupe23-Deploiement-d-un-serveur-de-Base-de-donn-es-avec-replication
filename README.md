@@ -48,7 +48,7 @@ FLUSH PRIVILEGES;'''
 ###3. Configuration de l'Esclave (Slave)
 
 Éditez le fichier 50-server.cnf sur le second PC :
-```Ini, TOML
+```ini, TOML
 
 [mysqld]
 server-id = 2
