@@ -43,7 +43,7 @@ SQL
 
 CREATE USER 'replique'@'%' IDENTIFIED BY 'votre_mot_de_passe';
 GRANT REPLICATION SLAVE ON *.* TO 'replique'@'%';
-FLUSH PRIVILEGES;```
+FLUSH PRIVILEGES;'''
 
 ###3. Configuration de l'Esclave (Slave)
 
@@ -62,7 +62,7 @@ MASTER_USER='replique',
 MASTER_PASSWORD='votre_mot_de_passe',
 MASTER_LOG_FILE='mariadb-bin.000001', -- À vérifier via SHOW MASTER STATUS
 MASTER_LOG_POS=1234;
-START SLAVE;```
+START SLAVE;'''
 
  Problèmes Résolus
 
